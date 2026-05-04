@@ -4,9 +4,12 @@
 Leaf Disease Detection System: A full-stack Deep Learning application that uses a Convolutional Neural Network (CNN) to identify plant diseases from leaf images. The system provides real-time classification through a Flask web interface. 
 
 ## Live Features 
-Automated Classification: Instant detection of 4 distinct plant health states. 
+Automated Classification: Instant detection of 4 distinct plant health states.
+
 High Precision: Uses image normalization (1/255) and standardized (225x225) input for consistent accuracy.
+
 Web Interface: User-friendly Flask dashboard for image uploads and result display. 
+
 Confidence Scoring: Provides a probability percentage for every prediction.
 
 ## Tech Stack
