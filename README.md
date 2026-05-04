@@ -14,29 +14,49 @@ Confidence Scoring: Provides a probability percentage for every prediction.
 
 ## Tech Stack
 Backend: Python, Flask
-Deep Learning: TensorFlow, Keras Computer Vision: NumPy, Pillow (PIL) Frontend: HTML5, CSS3 
+
+Deep Learning: TensorFlow, Keras 
+
+Computer Vision: NumPy, Pillow (PIL) Frontend: HTML5, CSS3 
 
 ## Supported Conditions
+
 The model is trained to recognize the following classes: 
-Healthy Leaf – Optimal plant health. Powdery Mildew – Fungal infection appearing as white flour-like spots. Early Blight – Identifying target-like spots before they spread. 
+
+Healthy Leaf – Optimal plant health. 
+
+Powdery Mildew – Fungal infection appearing as white flour-like spots.
+
+Early Blight – Identifying target-like spots before they spread. 
+
 Rust – Detection of reddish-brown fungal spores.
 
 ## Project Structure
+
 plant-detection-ai 
-┣ 📂 models ┃
-┗ 📜 model.h5 <-- Trained CNN weights ┣ 📂 static ┃ ┗ 📂 uploads <-- User-uploaded leaf images
+┣ 📂 models ┃┗ 📜 model.h5 <-- Trained CNN weights
+
+┣ 📂 static ┃ ┗ 📂 uploads <-- User-uploaded leaf images
+
 ┣ 📂 templates ┃ ┗ 📜 index.html <-- Flask Web Interface
+
 ┣ 📜 app.py <-- Main Server & Logic 
+
 ┣ 📜 history.pkl <-- Training metrics & history
+
 ┣ 📜 requirements.txt <-- Library dependencies ┗ 📜 README.md <-- Project Documentation 
 
 ## Installation & Setup
+
 1: Clone the repository:
 git clone https://github.com cd your-repo-name
+
 2: Set up Virtual Environment (Windows): 
 python -m venv venv .\venv\Scripts\Activate.ps1
+
 3:Install Dependencies:
 pip install flask tensorflow numpy pillow 
+
 4:Run the Application:
 python app.py 
 
